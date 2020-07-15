@@ -1,0 +1,311 @@
+/* Start Main Role */
+
+body {
+    background-color: #F4F4F4;
+    font-size: 16px;
+}
+
+.form-control {
+    position: relative;
+}
+
+.input-container {
+    position: relative;
+}
+
+.asterisk {
+    position: absolute;
+    font-size: 25px;
+    right: 10px;
+    top: 4px;
+    color: #D20707;
+}
+
+.main-form .asterisk {
+    position: absolute;
+    font-size: 30px;
+    right: 20px;
+    top: 1px;
+    color: #D20707;
+}
+
+
+/* End Main Role */
+
+
+/* Start Bootstrap Edits */
+
+.navbar {
+    margin: 0;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar .nav-item .nav-link {
+    padding: 15px 12px;
+}
+
+.navbar .dropdown-toggle,
+.navbar .dropdown-menu {
+    background-color: #343a40;
+    color: #FFF !important;
+    padding: 10px !important;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+    color: #FFF !important;
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+    color: #FFF !important;
+    background-color: #8e44ad;
+}
+
+
+/* End Bootstrap Edits */
+
+
+/* Start Header Section */
+
+.upper-bar {
+    background-color: #FFF;
+    padding: 10px;
+}
+
+.user-nav .upper-links ul li img {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+
+/* End Header Section */
+
+
+/* Start Login Page */
+
+.login-page {
+    flex-direction: column;
+}
+
+.login-page .login-form,
+.login-page .signup-form {
+    max-width: 300px;
+}
+
+.login-page h1 {
+    color: #999;
+}
+
+.login-page [data-class="login-form"].active {
+    color: #337AB7;
+}
+
+.login-page [data-class="signup-form"].active {
+    color: #5CB85C;
+}
+
+.login-page h1 span {
+    cursor: pointer;
+}
+
+.login-page .signup-form {
+    display: none;
+}
+
+.the-errors {
+    max-width: 300px;
+    margin: auto;
+}
+
+.the-errors .msg {
+    padding: 10px;
+    text-align: left;
+    background-color: #FFF;
+    margin-bottom: 8px;
+    border-left: 5px solid #CD6858;
+    border-right: 1px solid #E0E0E0;
+    border-top: 1px solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
+    color: #919191;
+}
+
+
+/* End Login Page */
+
+
+/* Start Index Page */
+
+.item-img {
+    height: 180px;
+}
+
+.item-img img {
+    height: 100%;
+}
+
+
+/* End Index Page */
+
+
+/* Start Profile Page */
+
+.info-head {
+    background-color: #007bff;
+    color: #FFF;
+}
+
+.info ul {
+    padding: 0;
+    margin: 0;
+}
+
+.info ul li {
+    padding: 5px;
+}
+
+.info ul li:nth-child(odd) {
+    background-color: #EEE;
+}
+
+.info ul li span {
+    display: inline-block;
+    width: 120px;
+}
+
+.info .editBtn {
+    width: 150px;
+    margin: auto;
+    color: #FFF !important;
+}
+
+.img-thumbnail .caption .date {
+    text-align: right;
+    font-size: 13px;
+    color: #AAA;
+    font-weight: bold;
+}
+
+.item-box p {
+    height: 44px;
+    max-height: 44px;
+}
+
+.item-box .approve-status {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #B85A5A;
+    color: #FFF;
+    padding: 3px 5px;
+}
+
+.info .prof-img {
+    height: 250px;
+}
+
+.info .prof-img img {
+    height: 100%;
+    margin: auto;
+}
+
+
+/* End Profile Page */
+
+
+/* Start Categories Page */
+
+.item-box {
+    position: relative;
+}
+
+.item-box .price-tag {
+    position: absolute;
+    background-color: #848484;
+    color: #FFF;
+    padding: 2px 10px;
+    font-weight: bold;
+    left: 0;
+    top: 10px;
+}
+
+
+/* Start Categories Page */
+
+
+/* Start Item Page */
+
+.item-info h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.item-info p {
+    padding: 10px;
+}
+
+.item-info ul li {
+    padding: 10px;
+}
+
+.item-info ul li:nth-child(odd) {
+    background-color: #E8E8E8;
+}
+
+.item-info ul li span {
+    display: inline-block;
+    width: 120px;
+}
+
+.comment-box {
+    margin-bottom: 20px;
+}
+
+.comment-box img {
+    width: 30%;
+    max-width: 100%;
+    margin-bottom: 10px;
+    display: block;
+    margin: auto;
+}
+
+.comment-box .lead {
+    background-color: #E0E0E0;
+    position: relative;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.comment-box .lead::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent #E0E0E0 transparent transparent;
+    position: absolute;
+    left: -28px;
+    top: 10px;
+}
+
+
+/* End Item Page */
+
+
+/* Start User Profile */
+
+.user-prof-img {
+    height: 220px;
+    width: 220px;
+}
+
+.user-prof-img img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* End User Profile */

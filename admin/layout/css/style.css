@@ -1,0 +1,334 @@
+/* Start Main Role */
+
+body {
+    background-color: #F4F4F4;
+    font-size: 16px;
+}
+
+.asterisk {
+    position: absolute;
+    font-size: 25px;
+    right: 30px;
+    top: 2px;
+    color: #D20707;
+}
+
+
+/* End Main Role */
+
+
+/* Start Login Form */
+
+.login {
+    width: 300px;
+    margin: 100px auto;
+}
+
+.login input {
+    margin-bottom: 10px;
+}
+
+.login .form-control {
+    background-color: #EAEAEA;
+}
+
+.login .btn {
+    background-color: #008dde;
+}
+
+
+/* End Login Form */
+
+
+/* Start Bootstrap Edits */
+
+.navbar {
+    margin: 0;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar .nav-item .nav-link {
+    padding: 15px 12px;
+}
+
+.navbar .dropdown-toggle,
+.navbar .dropdown-menu {
+    background-color: #3498db;
+    color: #FFF !important;
+    padding: 10px !important;
+    border-radius: 10px;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+    color: #FFF !important;
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+    color: #FFF !important;
+    background-color: #8e44ad;
+}
+
+
+/* End Bootstrap Edits */
+
+
+/* Start Dashboard Page */
+
+.home-stats .stat {
+    background-color: #EEE;
+    padding: 20px;
+    font-size: 15px;
+    color: #FFF;
+    border-radius: 10px;
+}
+
+.home-stats .stat a {
+    color: #FFF;
+}
+
+.home-stats .stat a:hover {
+    text-decoration: none;
+}
+
+.home-stats .st-members {
+    background-color: #3498DB;
+}
+
+.home-stats .st-pending {
+    background-color: #C0392B;
+}
+
+.home-stats .st-items {
+    background-color: #D35400;
+}
+
+.home-stats .st-comments {
+    background-color: #8E44AD;
+}
+
+.home-stats .stat span {
+    display: block;
+    font-size: 60px;
+}
+
+.latest {
+    margin-top: 30px;
+}
+
+.latest .toggle-info {
+    cursor: pointer;
+}
+
+.approve {
+    margin-left: 5px;
+}
+
+.users-list {
+    margin-bottom: 0;
+}
+
+.users-list li {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.users-list li:nth-child(odd) {
+    background-color: #EEE;
+}
+
+.users-list .btn-info,
+.users-list .btn-success,
+.users-list .btn-danger {
+    padding: 2px 8px;
+}
+
+
+/* End Dashboard Page */
+
+
+/* Start Members Page */
+
+.members_h1 {
+    font-size: 45px;
+    color: #666;
+    margin: 20px 0;
+}
+
+.input-required {
+    position: relative;
+}
+
+.show-pass {
+    position: absolute;
+    right: -30px;
+    top: 4px;
+    cursor: pointer;
+}
+
+.main-table {
+    box-shadow: 0 3px 15px #CCC;
+}
+
+.main-table thead tr td {
+    background-color: #333;
+    color: #FFF;
+}
+
+.main-table tr td {
+    background-color: #FFF;
+    vertical-align: middle !important;
+}
+
+.main-table .btn {
+    padding: 3px 10px;
+}
+
+.add-user-btn {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 03s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.add-user-btn:hover {
+    background-color: #FFF;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.add-user-btn:hover i {
+    border: 1px solid #000;
+}
+
+.add-user-btn i {
+    padding: 3px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+}
+
+
+/* End Members Page */
+
+
+/* Start Categories Page */
+
+.categories .card-body {
+    padding: 0;
+}
+
+.categories hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.categories .cat {
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.categories .cat .hidden-btn {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 25px;
+    right: -160px;
+}
+
+.categories .cat:hover {
+    background-color: #EEE;
+}
+
+.categories .cat:hover .hidden-btn {
+    right: 20px;
+}
+
+.categories .cat .hidden-btn a {
+    padding: 3px 8px;
+    margin-left: 5px;
+}
+
+.categories .cat h3 {
+    cursor: pointer;
+}
+
+.categories .cat:last-of-type~hr {
+    display: none;
+}
+
+.categories .cat .visible {
+    background-color: #D35400;
+    color: #FFF;
+    padding: 4px 6px;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+
+.categories .cat .comments {
+    background-color: #2C3E50;
+    color: #FFF;
+    padding: 4px 6px;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+
+.categories .cat .ads {
+    background-color: #C0392B;
+    color: #FFF;
+    padding: 4px 6px;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+
+.categories .sorting a {
+    color: #000;
+    text-decoration: none;
+}
+
+.categories .sorting .view {
+    cursor: pointer;
+}
+
+.active {
+    color: red !important;
+}
+
+.add-cat {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 03s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.add-cat:hover {
+    background-color: #FFF;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.child-head {
+    margin: 15px 0;
+    font-weight: bold;
+    color: #22AB79;
+}
+
+.child-cat {
+    margin: 0 0 0 20px;
+}
+
+.child-cat {
+    margin-left: 20px;
+}
+
+.show-delete {
+    color: #dc3545 !important;
+}
+
+
+/* End Categories Page */
